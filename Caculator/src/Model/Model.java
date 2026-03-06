@@ -47,7 +47,6 @@ public class Model {
               if ( secondNumber==0){
                     throw new ArithmeticException("Divide by zero");
 
-                  
               }
               else   {
               result= firstNumber /secondNumber;}
@@ -66,7 +65,6 @@ public class Model {
     }
 
     public void clear() { 
-        
      this.setFirstNumber(0);
      this. setSecondNumber(0);
      this. setOperator("");
