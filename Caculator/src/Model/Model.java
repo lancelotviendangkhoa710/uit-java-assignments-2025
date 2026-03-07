@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 
 package Model;
 
@@ -71,45 +68,9 @@ public class Model {
     }
     
     
-    public static void main(String[] args) {
-
-    Model m = new Model();
-
-    // ===== Test cộng =====
-    m.setFirstNumber(5);
-    m.setOperator("-");
-    m.setSecondNumber(3);
-    System.out.println("5 " +m.operator+ " 3 = " + m.calculate());
-
-    // ===== Test cộng liên tiếp =====
-    m.setOperator("+");
-    m.setSecondNumber(2);
-    System.out.println("8 + 2 = " + m.calculate());
-
-    // ===== Test chia bình thường =====
-    m.setFirstNumber(10);
-    m.setOperator("/");
-    m.setSecondNumber(2);
-    System.out.println("10 / 2 = " + m.calculate());
-
-    // ===== Test chia 0 =====
-    try {
-        m.setFirstNumber(10);
-        m.setOperator("/");
-        m.setSecondNumber(0);
-        System.out.println(m.calculate());
-    } catch (ArithmeticException e) {
-        System.out.println("Caught error: " + e.getMessage());
-    }
+   
 
 }
-    
-    
-    
-     
-    
-}
-
 
 
 
